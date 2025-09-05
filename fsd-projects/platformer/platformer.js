@@ -31,6 +31,13 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
+    createPlatform(300, 620, 100, 10, "lime"); // bright green or a finished platform
+    createPlatform(150, 500, 100, 10);
+    createPlatform(400, 400, 100, 10);
+    createPlatform(100, 150, 150, 10);
+    createPlatform(300, 270, 50, 10);
+    createPlatform(600, 200, 200, 550);
+    createPlatform(650, 0, 100, 50);
 
 
 
