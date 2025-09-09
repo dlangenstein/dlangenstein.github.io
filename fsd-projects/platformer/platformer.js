@@ -45,7 +45,6 @@ $(function () {
     createPlatform(1000, 710, 100, 30, "blue")
     createPlatform(1200, 710, 100, 30, "orange")
     createPlatform(1350, 600, 50, 30, "red")
-    createplatform()
 
 
 
