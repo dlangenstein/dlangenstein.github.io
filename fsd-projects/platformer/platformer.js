@@ -44,7 +44,12 @@ $(function () {
     createPlatform(850, 500, 450, 50, "magenta");
     createPlatform(1000, 710, 100, 30, "blue")
     createPlatform(1200, 710, 100, 30, "orange")
-    createPlatform(1350, 600, 50, 30, "red")
+    createPlatform(1350, 600, 50, 10, "red")
+    createPlatform(870, 450, 50, 10, "brown")
+    createPlatform(960, 100, 20, 300, "lime");
+    createPlatform(910, 300, 50, 10, "yellow");
+    createPlatform(870, 150, 50, 10, "black")
+    createPlatform(980, 100, 350, 20, "navy")
 
 
 
@@ -52,6 +57,7 @@ $(function () {
     // TODO 3 - Create Collectables
 
     createCollectable("goog", 200, 170, 0.5, 0.7);
+    createCollectable("moring", 300, 300, 0.5, 0.7)
 
     
     // TODO 4 - Create Cannons
