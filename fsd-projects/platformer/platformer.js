@@ -27,42 +27,49 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
+     // toggleGrid();
 
 
     // TODO 2 - Create Platforms
-    createPlatform(0, 710, 600, 30)
-    createPlatform(300, 620, 100, 10, "lime"); // bright green or a finished platform
-    createPlatform(150, 500, 100, 10, "lime");
-    createPlatform(400, 400, 100, 10, "lime");
-    createPlatform(100, 150, 150, 10, "lime");
-    createPlatform(300, 270, 50, 10, "lime");
-    createPlatform(600, 200, 200, 540);
-    createPlatform(650, 0, 200, 50);
-    createPlatform(850, 0, 20, 500, "purple");
-    createPlatform(800, 710, 150, 30, "lime");
-    createPlatform(850, 500, 450, 50, "magenta");
-    createPlatform(1000, 710, 100, 30, "blue")
-    createPlatform(1200, 710, 100, 30, "orange")
-    createPlatform(1350, 600, 50, 10, "red")
-    createPlatform(870, 450, 50, 10, "brown")
-    createPlatform(960, 100, 20, 300, "lime");
-    createPlatform(910, 300, 50, 10, "yellow");
-    createPlatform(870, 150, 50, 10, "black")
-    createPlatform(980, 100, 350, 20, "navy")
+    createPlatform(0, 710, 600, 30, "#22556D")
+    createPlatform(300, 620, 100, 10, "#22556D"); // bright green or a finished platform
+    createPlatform(150, 500, 100, 10, "#22556D");
+    createPlatform(400, 400, 100, 10, "#22556D");
+    createPlatform(100, 150, 150, 10, "#22556D");
+    createPlatform(300, 270, 50, 10, "#22556D");
+    createPlatform(600, 200, 200, 540, "#22556D");
+    createPlatform(650, 0, 200, 50, "#22556D");
+    createPlatform(850, 0, 20, 500, "#22556D");
+    createPlatform(800, 710, 150, 30, "#22556D");
+    createPlatform(850, 500, 450, 50, "#22556D");
+    createPlatform(1000, 710, 100, 30, "#22556D");
+    createPlatform(1200, 710, 100, 30, "#22556D");
+    createPlatform(1350, 600, 50, 10, "#22556D");
+    createPlatform(870, 450, 50, 10, "#22556D");
+    createPlatform(960, 100, 20, 300, "#22556D");
+    createPlatform(910, 300, 50, 10, "#22556D");
+    createPlatform(870, 150, 50, 10, "#22556D");
+    createPlatform(980, 100, 370, 10, "#22556D");
+    createPlatform(1030, 200, 370, 10, "#22556D")
+    createPlatform(980, 300, 370, 10, "#22556D");
+    createPlatform(960, 400, 440, 10, "#22556D")
+
 
 
 
 
     // TODO 3 - Create Collectables
 
-    createCollectable("goog", 200, 170, 0.5, 0.7);
-    createCollectable("moring", 300, 300, 0.5, 0.7)
+    createCollectable("goog", 150, 70, .3, 1);
+    createCollectable("moring", 875, 70, .3, 1)
+    createCollectable("twin", 1000, 335, .3, 1)
 
     
     // TODO 4 - Create Cannons
     createCannon("left", 680, 230)
-    createCannon("top", 1300, 2000)
+    createCannon("top", 1150, 1000)
+    createCannon("top", 1350, 1000)
+    createCannon("top", 950, 3000)
 
 
     

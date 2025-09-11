@@ -3,8 +3,10 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-image: url('https://i.ytimg.com/vi/GyIBcV10q3E/maxresdefault.jpg');
+  background-color: azure
   margin: 20px;
+  background-size: 1400px
 }
 
 img {
