@@ -62,7 +62,7 @@ $(function () {
 
     createCollectable("goog", 150, 70, .3, 1);
     createCollectable("moring", 875, 70, .3, 1)
-    createCollectable("twin", 1000, 335, .3, 1)
+    createCollectable("twin", 1000, 335, 1, 1)
 
     
     // TODO 4 - Create Cannons
